@@ -1,0 +1,19 @@
+*.code-workspace
+packer/variables.json
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+*.tfstate.lock.info
+*.retry
+ansible/Infra-d0c8445230d0.json
+jdauphant.nginx
+ansible/vault.key
+# Vagrant & molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
