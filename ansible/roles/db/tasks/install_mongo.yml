@@ -19,5 +19,5 @@
 - name: Configure service
   systemd:
     name: mongod
-    enabled: yes
+    enabled: true
   tags: install
