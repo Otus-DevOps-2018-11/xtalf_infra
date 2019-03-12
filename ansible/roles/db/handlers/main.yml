@@ -1,5 +1,0 @@
----
-# handlers file for db
-  - name: restart mongo
-    become: yes
-    service: name=mongod state=restarted

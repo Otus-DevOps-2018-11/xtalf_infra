@@ -3,12 +3,5 @@
   hosts: all
   become: true
 
-  tasks:
-    - name: Install Ruby and required packages
-      apt:
-        update_cache: yes
-        name: "{{ item }}"
-      loop:
-        - ruby-full
-        - ruby-bundler
-        - build-essential
+  roles:
+    - db
